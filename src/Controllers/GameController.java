@@ -6,7 +6,7 @@ import javafx.stage.Stage;
 import javax.swing.text.Position;
 
 public class GameController {
-    private BoardController boardController;
+/*    private BoardController boardController;
     private Game gameModel;
     private int originPosition;
 
@@ -21,5 +21,6 @@ public class GameController {
     public void Teleport(Position initPosition, Position finalPosition){
 
     }
-    public String Texture (String text)
+    public String Texture (String text);
+ */
 }

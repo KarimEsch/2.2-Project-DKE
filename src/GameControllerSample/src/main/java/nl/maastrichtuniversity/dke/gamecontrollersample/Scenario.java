@@ -3,8 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package nl.maastrichtuniversity.dke.gamecontrollersample;
-
+package GameControllerSample.src.main.java.nl.maastrichtuniversity.dke.gamecontrollersample;
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
@@ -257,5 +256,10 @@ public class Scenario {
     
     public double getScaling(){
         return scaling;
+    }
+
+    public int[] getmapSize(){
+        int[] Size = {mapHeight,mapWidth};
+        return Size;
     }
 }

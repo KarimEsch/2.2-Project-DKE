@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package nl.maastrichtuniversity.dke.gamecontrollersample;
+package GameControllerSample.src.main.java.nl.maastrichtuniversity.dke.gamecontrollersample;
 
 /**
  *
