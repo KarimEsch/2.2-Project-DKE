@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2700c355-eb9f-4261-9e5e-1b072b588407" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/Scenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/Scenario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/Gui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/GameRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/GameRunner.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,12 +12,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/Scenario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-627">
+            <state relative-caret-position="-452">
               <caret line="189" column="30" selection-start-line="189" selection-start-column="30" selection-end-line="189" selection-end-column="30" />
               <folding>
                 <element signature="e#0#7829#0" expanded="true" />
@@ -42,7 +47,35 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/GameRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/Gui.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,14 +84,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/Scenario.java" />
+        <option value="$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/GameRunner.java" />
+        <option value="$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/Gui.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="438" />
-    <option name="y" value="63" />
-    <option name="width" value="1179" />
-    <option name="height" value="921" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -135,7 +170,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="438" y="63" width="1179" height="921" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -143,7 +178,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24932976" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14872068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -168,7 +203,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/Scenario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-627">
+        <state relative-caret-position="-452">
           <caret line="189" column="30" selection-start-line="189" selection-start-column="30" selection-end-line="189" selection-end-column="30" />
           <folding>
             <element signature="e#0#7829#0" expanded="true" />
@@ -189,6 +224,23 @@
             <element signature="e#7758#7759#0" expanded="true" />
             <element signature="e#7795#7796#0" expanded="true" />
             <element signature="e#7825#7826#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/GameRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/Gui.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

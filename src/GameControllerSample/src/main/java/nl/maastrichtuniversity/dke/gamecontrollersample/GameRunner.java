@@ -25,6 +25,7 @@ public class GameRunner {
         String mapD="C:\\Users\\Nickb\\Documents\\Nick_uni\\Project22\\GameControllerSample\\testmap.txt";
         GameRunner game = new GameRunner(mapD);
         game.p.setup();
+        Gui.main(args);
         //game.writeGameFile();
         game.p.start();
     }
