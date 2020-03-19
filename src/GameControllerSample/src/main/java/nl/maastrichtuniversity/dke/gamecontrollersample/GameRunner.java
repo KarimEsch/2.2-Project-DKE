@@ -10,16 +10,17 @@ import java.io.PrintWriter;
 public class GameRunner {
 
     protected String mapDoc;
-    protected Scenario scenario;
+    protected static Scenario scenario;
+    public static String Map = "testmap.txt";
     
     GamePlayer p;   
     
     public static void main(String[] args){
         // the mapscenario should be passed as a parameter
-        String mapD="C:\\Users\\Nickb\\Documents\\Nick_uni\\Project22\\GameControllerSample\\testmap.txt";
+        String mapD = System.getProperty("user.dir")+System.getProperty("file.separator")+"src"+System.getProperty("file.separator")+"GameControllerSample"+System.getProperty("file.separator")+Map;
         GameRunner game = new GameRunner(mapD);
         game.p.setup();
-        Gui.main(args);
+        Gui.main(args,scenario);
         //game.writeGameFile();
         game.p.start();
     }

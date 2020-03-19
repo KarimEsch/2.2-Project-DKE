@@ -1,4 +1,4 @@
-gameFile = gamefile.txt
+gameFile = C:\Users\Nickb\Documents\Nick_uni\Project22\GameControllerSample\gamefile.txt
 
 height = 80
 width = 120

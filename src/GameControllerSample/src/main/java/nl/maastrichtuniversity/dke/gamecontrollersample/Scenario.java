@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package GameControllerSample.src.main.java.nl.maastrichtuniversity.dke.gamecontrollersample;
+
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
@@ -50,7 +51,7 @@ public class Scenario {
     protected double viewRangeIntruderShaded;
     protected double viewRangeGuardNomal;
     protected double viewRangeGuardShaded;
-    protected double[] viewRangeSentry;
+    protected double[] viewRangeSentry =  new double[2];
     
     public Scenario(String mapFile){
         // set parameters
@@ -185,7 +186,7 @@ public class Scenario {
                         break;
                     case "viewRangeSentry":
                         viewRangeSentry[0] = Double.parseDouble(items[0]);
-                        viewRangeSentry[1] = Double.parseDouble(items[1]);
+                        //viewRangeSentry[1] = Double.parseDouble(items[1]);
                         break;
                 }
             }
@@ -247,7 +248,7 @@ public class Scenario {
     }
     
     public String getGameFile(){
-        return gameFile;
+        return System.getProperty("user.dir")+System.getProperty("file.separator")+"src"+System.getProperty("file.separator")+"GameControllerSample"+System.getProperty("file.separator")+gameFile;
     }
 
     public String getMapDoc(){
