@@ -15,7 +15,7 @@ public class Gui extends Application{
     public void start(Stage primaryStage) throws Exception {
         primaryStage.setTitle("Team 4 -  Project 2.2");
         Group root = new Group();
-        Scene scene = new Scene(root, Scenario, 200);
+        Scene scene = new Scene(root, 500, 200);
         primaryStage.setScene(scene);
         primaryStage.show();
     }
