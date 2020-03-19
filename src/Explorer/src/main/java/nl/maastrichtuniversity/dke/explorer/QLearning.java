@@ -65,13 +65,11 @@ public class QLearning extends Agent{
             System.out.println(Math.toDegrees(Math.atan(yVector / xVector)));
 
             System.out.println("Degree of movement: " + movingDirection);
-
-            absoluteError = abs(targetDirection - movingDirection);
-
-            return absoluteError;
         }
-        //this should never happen
-        return -1;
+        absoluteError = abs(targetDirection - movingDirection);
+
+        return absoluteError;
+
     }
 
     public void updateDirection(){
