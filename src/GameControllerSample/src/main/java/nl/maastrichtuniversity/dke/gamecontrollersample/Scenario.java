@@ -14,10 +14,7 @@ import java.util.Objects;
 import java.util.Scanner;
 import java.util.ArrayList;
 
-/**
- *
- * @author joel
- */
+
 public class Scenario {
     
     protected double baseSpeedIntruder;
@@ -42,6 +39,19 @@ public class Scenario {
     protected ArrayList<Area> walls;
     protected ArrayList<TelePortal> teleports;
     protected ArrayList<Area> shaded;
+
+    protected double timeStep;
+    protected double radiusPheromon;
+    protected double timePheromon;
+    protected double timeTeleport;
+    protected double timeWindows;
+    protected double timeDoor;
+    protected double timeSentry;
+    protected double viewRangeIntruderNomal;
+    protected double viewRangeIntruderShaded;
+    protected double viewRangeGuardNomal;
+    protected double viewRangeGuardShaded;
+    protected double[] viewRangeSentry;
     
     public Scenario(String mapFile){
         // set parameters
@@ -68,10 +78,7 @@ public class Scenario {
         {
         }
     }
-    
-    /*
-        
-     */    
+
     protected void parseLine(String line){
         //use a second Scanner to parse the content of each line 
         try(Scanner scanner = new Scanner(line)){
@@ -144,6 +151,43 @@ public class Scenario {
                         break;
                     case "texture":
                         // still to do. First the coordinates, then an int with texture type and then a double with orientation
+                    case "timeStep":
+                        timeStep = Double.parseDouble(value);
+                        break;
+                    case "radiusPheromon":
+                        radiusPheromon = Double.parseDouble(value);
+                        break;
+                    case "timePheromon":
+                        timePheromon = Double.parseDouble(value);
+                        break;
+                    case "timeTeleport":
+                        timeTeleport = Double.parseDouble(value);
+                        break;
+                    case "timeWindows":
+                        timeWindows = Double.parseDouble(value);
+                        break;
+                    case "timeDoor":
+                        timeDoor = Double.parseDouble(value);
+                        break;
+                    case "timeSentry":
+                        timeSentry = Double.parseDouble(value);
+                        break;
+                    case "viewRangeIntruderNomal":
+                        viewRangeIntruderNomal = Double.parseDouble(value);
+                        break;
+                    case "viewRangeIntruderShaded":
+                        viewRangeIntruderShaded = Double.parseDouble(value);
+                        break;
+                    case "viewRangeGuardNomal":
+                        viewRangeGuardNomal = Double.parseDouble(value);
+                        break;
+                    case "viewRangeGuardShaded":
+                        viewRangeGuardShaded = Double.parseDouble(value);
+                        break;
+                    case "viewRangeSentry":
+                        viewRangeSentry[0] = Double.parseDouble(items[0]);
+                        viewRangeSentry[1] = Double.parseDouble(items[1]);
+                        break;
                 }
             }
         }
