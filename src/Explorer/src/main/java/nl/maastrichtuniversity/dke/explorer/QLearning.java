@@ -7,7 +7,9 @@ import static java.lang.StrictMath.atan;
 
 public class QLearning extends Agent{
     final static double threshold = 0.99;
-    final static int targetDirection = 145;
+    double targetDirection = 145;
+    final static int targetX = 4;
+    final static int targetY = 1;
 
 
     public Move Qlearning(ArrayList<Move> moves){
@@ -40,11 +42,11 @@ public class QLearning extends Agent{
     }
 
 
-    public double evaluateMove(Move m, int targetDirection) {
+    public double evaluateMove(Move m, double targetDirection) {
         double absoluteError;
         double movingDirection;
-        double xVector = m.getX() - this.getCurrentXLocation();
-        double yVector = m.getY() - super.getCurrentXLocation();
+        double xVector = getCurrentXLocation() - m.getX();
+        double yVector = getCurrentYLocation() - m.getY();
         if (yVector == 0) {
             if (xVector > 0) {
                 movingDirection = 0;
@@ -58,12 +60,7 @@ public class QLearning extends Agent{
                 movingDirection = 270;
             }
         } else {
-            System.out.println(yVector);
-            System.out.println(xVector);
             movingDirection = Math.toDegrees(Math.atan(yVector / xVector));
-            System.out.println(atan(yVector / xVector));
-            System.out.println(Math.toDegrees(Math.atan(yVector / xVector)));
-
             System.out.println("Degree of movement: " + movingDirection);
         }
         absoluteError = abs(targetDirection - movingDirection);
@@ -73,7 +70,25 @@ public class QLearning extends Agent{
     }
 
     public void updateDirection(){
-        //to be created
+        double xVector = targetX - getCurrentXLocation();
+        double yVector = targetY - getCurrentYLocation();
+        
+        if (yVector == 0) {
+            if (xVector > 0) {
+                this.targetDirection = 0;
+            } else {
+                this.targetDirection = 180;
+            }
+        } else if (xVector == 0) {
+            if (yVector > 0) {
+                this.targetDirection = 90;
+            } else {
+                this.targetDirection = 270;
+            }
+        } else {
+
+            this.targetDirection = Math.toDegrees(Math.atan(yVector / xVector));
+        }
     }
 
     public static void main(String[] args){
@@ -93,6 +108,7 @@ public class QLearning extends Agent{
         am.add(m);
 
         System.out.println(q.Qlearning(am));
+
     }
 
 }
