@@ -29,6 +29,13 @@ public class Gui extends Application{
         SpawnAreaG.setWidth(scenario.spawnAreaGuards.rightBoundary - scenario.spawnAreaGuards.leftBoundary);
         SpawnAreaG.setHeight ( scenario.spawnAreaGuards.topBoundary - scenario.spawnAreaGuards.bottomBoundary );
 
+        Rectangle SpawnAreaI = new Rectangle(  );
+
+        SpawnAreaI.setX(scenario.spawnAreaIntruders.leftBoundary);
+        SpawnAreaI.setY(scenario.spawnAreaIntruders.bottomBoundary);
+        SpawnAreaI.setWidth(scenario.spawnAreaIntruders.rightBoundary - scenario.spawnAreaIntruders.leftBoundary);
+        SpawnAreaI.setHeight ( scenario.spawnAreaGuards.topBoundary - scenario.spawnAreaIntruders.bottomBoundary );
+
         primaryStage.setTitle("Team 4 -  Project 2.2");
         Group root = new Group();
         Group allWalls = new Group();
@@ -46,6 +53,7 @@ public class Gui extends Application{
         }
         root.getChildren ().add(allWalls);
         root.getChildren ().add(SpawnAreaG );
+        root.getChildren ().add(SpawnAreaI );
         Scene scene = new Scene(root, scenario.mapWidth, scenario.mapHeight);
         primaryStage.setScene(scene);
         primaryStage.show();
