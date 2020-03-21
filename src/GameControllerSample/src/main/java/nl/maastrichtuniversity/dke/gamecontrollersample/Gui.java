@@ -9,6 +9,7 @@ import java.util.ArrayList;
 
 import static javafx.scene.paint.Color.BLACK;
 import static javafx.scene.paint.Color.BLUE;
+import static javafx.scene.paint.Color.color;
 
 public class Gui extends Application{
     protected static Scenario scenario;
@@ -28,6 +29,8 @@ public class Gui extends Application{
         SpawnAreaG.setY(scenario.spawnAreaGuards.bottomBoundary);
         SpawnAreaG.setWidth(scenario.spawnAreaGuards.rightBoundary - scenario.spawnAreaGuards.leftBoundary);
         SpawnAreaG.setHeight ( scenario.spawnAreaGuards.topBoundary - scenario.spawnAreaGuards.bottomBoundary );
+        SpawnAreaG.setFill (color ( 1,1,1,0 ) );
+        SpawnAreaG.setStroke ( BLACK );
 
         Rectangle SpawnAreaI = new Rectangle(  );
 
@@ -35,6 +38,8 @@ public class Gui extends Application{
         SpawnAreaI.setY(scenario.spawnAreaIntruders.bottomBoundary);
         SpawnAreaI.setWidth(scenario.spawnAreaIntruders.rightBoundary - scenario.spawnAreaIntruders.leftBoundary);
         SpawnAreaI.setHeight ( scenario.spawnAreaGuards.topBoundary - scenario.spawnAreaIntruders.bottomBoundary );
+        SpawnAreaI.setFill (color ( 1,1,1,0 ) );
+        SpawnAreaI.setStroke ( BLACK );
 
         primaryStage.setTitle("Team 4 -  Project 2.2");
         Group root = new Group();
