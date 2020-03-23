@@ -1,4 +1,16 @@
-package Explorer;
+package Explorer.src.main.java.nl.maastrichtuniversity.dke.explorer;
+
+
+import java.awt.geom.Point2D;
+import javafx.stage.Stage;
+import javax.swing.text.Position;
+import java.awt.Shape;
+import java.awt.geom.Area;
+import java.awt.geom.Rectangle2D;
+import java.util.ArrayList;
+import java.util.List;
+import java.lang.Math.*;
+import java.util.ArrayList;
 
 public class Agent {
     private int ID;
@@ -6,10 +18,13 @@ public class Agent {
     private int currentXLocation;
     private int currentYLocation;
     private boolean goalReached = false;
+    private static final int AGENT_SIZE = 5;
+    private ArrayList<Move> possibleMoves;
 
     public Agent(){
         this.ID = lastID + 1;
         lastID++;
+
     }
 
     public Agent(int currentXLocation, int currentYLocation){
@@ -50,4 +65,21 @@ public class Agent {
     public boolean getCurrentStatus(){
         return goalReached;
     }
+
+    public ArrayList<Move> getPossibleMoves() {
+        return possibleMoves;
+    }
+
+    public static final double getAgentSize(){
+        return AGENT_SIZE;
+    }
+
+    public void setGoalReached(boolean goalReached) {
+        this.goalReached = goalReached;
+    }
+
+    public static int getLastID() {
+        return lastID;
+    }
+
 }

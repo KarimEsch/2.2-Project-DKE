@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2700c355-eb9f-4261-9e5e-1b072b588407" name="Default Changelist" comment="">
+    <list default="true" id="dfc227f7-82f3-47c0-a74f-5a0d0508047d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Controllers/UsefulUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/GameRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/GameRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/Gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/Gui.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/Scenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/Scenario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameControllerSample/testmap.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameControllerSample/testmap.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Area.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/ExGamePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/ExGamePlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Explorer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Explorer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/FileWatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/FileWatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Move.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/QLearning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/QLearning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Scenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Scenario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/TelePortal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/TelePortal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/Area.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,71 +27,49 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="-437959053">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="1" />
+          <entry key="java" value="27" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="27" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="699" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="699" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/Scenario.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="250" column="186" selection-start-line="250" selection-start-column="186" selection-end-line="250" selection-end-column="186" />
-              <folding>
-                <element signature="e#0#7829#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-                <element signature="e#6014#6015#0" expanded="true" />
-                <element signature="e#6042#6043#0" expanded="true" />
-                <element signature="e#6323#6324#0" expanded="true" />
-                <element signature="e#6352#6353#0" expanded="true" />
-                <element signature="e#6408#6409#0" expanded="true" />
-                <element signature="e#6440#6441#0" expanded="true" />
-                <element signature="e#6478#6479#0" expanded="true" />
-                <element signature="e#6511#6512#0" expanded="true" />
-                <element signature="e#7596#7597#0" expanded="true" />
-                <element signature="e#7628#7629#0" expanded="true" />
-                <element signature="e#7729#7730#0" expanded="true" />
-                <element signature="e#7758#7759#0" expanded="true" />
-                <element signature="e#7795#7796#0" expanded="true" />
-                <element signature="e#7825#7826#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/GameRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/GameControllerSample/testmap.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controllers/GameController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/GamePlayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+            <state relative-caret-position="568">
+              <caret line="88" column="74" selection-start-line="88" selection-start-column="74" selection-end-line="88" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,19 +78,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/Area.java">
+        <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Area.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="551">
+              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2184#2185#0" expanded="true" />
+                <element signature="e#2249#2250#0" expanded="true" />
+                <element signature="e#2281#2282#0" expanded="true" />
+                <element signature="e#2346#2347#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/FileWatcher.java">
+        <entry file="file://$PROJECT_DIR$/src/Controllers/UsefulUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -108,32 +105,71 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/Gui.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="585">
+              <caret line="48" column="51" lean-forward="true" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/TelePortal.java">
+        <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Agent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="721">
+              <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/GameRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Move.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/FileWatcher.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="5" column="92" selection-start-line="5" selection-start-column="92" selection-end-line="5" selection-end-column="92" />
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/GamePlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/QLearning.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3527#3533#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -141,17 +177,25 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Controllers/BoardController.java" />
+        <option value="$PROJECT_DIR$/src/Explorer/Agent.java" />
+        <option value="$PROJECT_DIR$/src/Explorer/Area.java" />
+        <option value="$PROJECT_DIR$/src/Explorer/ExGamePlayer.java" />
+        <option value="$PROJECT_DIR$/src/Explorer/Explorer.java" />
+        <option value="$PROJECT_DIR$/src/Explorer/FileWatcher.java" />
+        <option value="$PROJECT_DIR$/src/Explorer/Move.java" />
+        <option value="$PROJECT_DIR$/src/Explorer/QLearning.java" />
+        <option value="$PROJECT_DIR$/src/Explorer/Scenario.java" />
+        <option value="$PROJECT_DIR$/src/Explorer/TelePortal.java" />
+        <option value="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Agent.java" />
+        <option value="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/ExGamePlayer.java" />
+        <option value="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Explorer.java" />
+        <option value="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/FileWatcher.java" />
+        <option value="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Move.java" />
+        <option value="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/QLearning.java" />
+        <option value="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Scenario.java" />
+        <option value="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/TelePortal.java" />
         <option value="$PROJECT_DIR$/src/Controllers/GameController.java" />
-        <option value="$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/GamePlayer.java" />
-        <option value="$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/FileWatcher.java" />
-        <option value="$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/Area.java" />
-        <option value="$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/TelePortal.java" />
-        <option value="$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/Gui.java" />
-        <option value="$PROJECT_DIR$/src/GameControllerSample/Testmap.txt" />
-        <option value="$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/GameRunner.java" />
-        <option value="$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/Scenario.java" />
-        <option value="$PROJECT_DIR$/src/GameControllerSample/testmap.txt" />
+        <option value="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Area.java" />
       </list>
     </option>
   </component>
@@ -159,14 +203,13 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,6 +238,36 @@
               <item name="2.2-Project-DKE" type="b2602c69:ProjectViewProjectNode" />
               <item name="2.2-Project-DKE" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Explorer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2.2-Project-DKE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2.2-Project-DKE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Explorer" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2.2-Project-DKE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2.2-Project-DKE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Explorer" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="maastrichtuniversity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2.2-Project-DKE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2.2-Project-DKE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Explorer" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="maastrichtuniversity" type="462c0819:PsiDirectoryNode" />
+              <item name="explorer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2.2-Project-DKE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2.2-Project-DKE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="GameControllerSample" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -212,18 +285,31 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="gamecontrollersample" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="2.2-Project-DKE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2.2-Project-DKE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584967995824" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Controllers" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -237,195 +323,188 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="GameRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GameControllerSample.src.main.java.nl.maastrichtuniversity.dke.gamecontrollersample.GameRunner" />
-      <module name="2.2 DKE Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="GameControllerSample.src.main.java.nl.maastrichtuniversity.dke.gamecontrollersample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.GameRunner" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2700c355-eb9f-4261-9e5e-1b072b588407" name="Default Changelist" comment="" />
-      <created>1584631261922</created>
+      <changelist id="dfc227f7-82f3-47c0-a74f-5a0d0508047d" name="Default Changelist" comment="" />
+      <created>1584879727865</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1584631261922</updated>
+      <updated>1584879727865</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.20042644" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="2" visible="true" weight="0.32917964" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.33437175" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.3997923" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="right" id="Theme Preview" order="1" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Controllers/GameController.java">
+    <entry file="file://$PROJECT_DIR$/2.2-Project-DKE.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        <state relative-caret-position="170">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/TelePortal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="5" column="92" selection-start-line="5" selection-start-column="92" selection-end-line="5" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/__MACOSX/GameControllerSample/._testmap.txt">
+    <entry file="file://$PROJECT_DIR$/src/Explorer/Agent.java" />
+    <entry file="file://$PROJECT_DIR$/src/Explorer/Area.java" />
+    <entry file="file://$PROJECT_DIR$/src/Explorer/ExGamePlayer.java" />
+    <entry file="file://$PROJECT_DIR$/src/Explorer/FileWatcher.java" />
+    <entry file="file://$PROJECT_DIR$/src/Explorer/Move.java" />
+    <entry file="file://$PROJECT_DIR$/src/Explorer/QLearning.java" />
+    <entry file="file://$PROJECT_DIR$/src/Explorer/Scenario.java" />
+    <entry file="file://$PROJECT_DIR$/src/Explorer/TelePortal.java" />
+    <entry file="file://$PROJECT_DIR$/src/Explorer/Explorer.java" />
+    <entry file="file://$PROJECT_DIR$/src/Explorer/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/BoardController.java">
+    <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/ExGamePlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+        <state relative-caret-position="17">
+          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/GamePlayer.java">
+    <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Explorer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+        <state relative-caret-position="17">
+          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Scenario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/TelePortal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/QLearning.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3527#3533#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/Gui.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="585">
+          <caret line="48" column="51" lean-forward="true" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/Area.java">
+    <entry file="file://$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/GamePlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="170">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/FileWatcher.java">
+    <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Agent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="721">
+          <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controllers/UsefulUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/GameRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/Scenario.java">
+    <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Move.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="250" column="186" selection-start-line="250" selection-start-column="186" selection-end-line="250" selection-end-column="186" />
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/FileWatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Area.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
           <folding>
-            <element signature="e#0#7829#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#6014#6015#0" expanded="true" />
-            <element signature="e#6042#6043#0" expanded="true" />
-            <element signature="e#6323#6324#0" expanded="true" />
-            <element signature="e#6352#6353#0" expanded="true" />
-            <element signature="e#6408#6409#0" expanded="true" />
-            <element signature="e#6440#6441#0" expanded="true" />
-            <element signature="e#6478#6479#0" expanded="true" />
-            <element signature="e#6511#6512#0" expanded="true" />
-            <element signature="e#7596#7597#0" expanded="true" />
-            <element signature="e#7628#7629#0" expanded="true" />
-            <element signature="e#7729#7730#0" expanded="true" />
-            <element signature="e#7758#7759#0" expanded="true" />
-            <element signature="e#7795#7796#0" expanded="true" />
-            <element signature="e#7825#7826#0" expanded="true" />
+            <element signature="e#2184#2185#0" expanded="true" />
+            <element signature="e#2249#2250#0" expanded="true" />
+            <element signature="e#2281#2282#0" expanded="true" />
+            <element signature="e#2346#2347#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameControllerSample/testmap.txt">
+    <entry file="file://$PROJECT_DIR$/src/Controllers/GameController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        <state relative-caret-position="568">
+          <caret line="88" column="74" selection-start-line="88" selection-start-column="74" selection-end-line="88" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -448,8 +527,9 @@
           </splitter-proportions>
         </settings>
       </state>
-      <state key="ModuleStructureConfigurable.UI">
+      <state key="ProjectJDKs.UI">
         <settings>
+          <last-edited>10</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
