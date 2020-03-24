@@ -13,12 +13,14 @@ import java.lang.Math.*;
 import java.util.ArrayList;
 
 public class Agent {
+    private static ArrayList<Agent> allAgents;
     private int ID;
     private static int lastID = 0;
     private int currentXLocation;
     private int currentYLocation;
+    private Point2D currentLocation;
     private boolean goalReached = false;
-    private static final int AGENT_SIZE = 5;
+    public static final int AGENT_SIZE = 5;
     private ArrayList<Move> possibleMoves;
 
     public Agent(){
@@ -30,6 +32,7 @@ public class Agent {
     public Agent(int currentXLocation, int currentYLocation){
         this.currentXLocation = currentXLocation;
         this.currentYLocation = currentYLocation;
+        this.currentLocation.setLocation(currentXLocation,currentYLocation);
         this.ID = lastID + 1;
         lastID ++;
     }
@@ -37,8 +40,14 @@ public class Agent {
     public void setCurrentLocation(int currentXLocation, int currentYLocation){
         this.currentXLocation = currentXLocation;
         this.currentYLocation = currentYLocation;
+        this.currentLocation.setLocation(currentXLocation,currentYLocation);
     }
 
+    public void setCurrentLocation(Point2D location){
+        this.currentXLocation = (int) location.getX();
+        this.currentYLocation = (int) location.getY();
+        this.currentLocation.setLocation(location);
+    }
     //moves agent to the specified location
     public void executeMove(Move m){
         this.currentXLocation = m.getX();
@@ -56,6 +65,10 @@ public class Agent {
 
     public int getCurrentYLocation(){
         return this.currentYLocation;
+    }
+
+    public Point2D getCurrentLocation() {
+        return currentLocation;
     }
 
     public int getID(){
