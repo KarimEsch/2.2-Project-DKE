@@ -5,10 +5,9 @@ import java.awt.geom.Point2D;
 import javafx.stage.Stage;
 import javax.swing.text.Position;
 import java.awt.Shape;
-import java.awt.geom.Area;
 import java.awt.geom.Rectangle2D;
 import java.util.ArrayList;
-import java.util.List;
+
 import java.lang.Math.*;
 
 public class GameController {
@@ -26,9 +25,31 @@ public class GameController {
 //    }
 
 
-    public void updateGameState(){
 
+
+    public void updateGameState(ArrayList<Agent> agents,ArrayList<Area> walls){
+        for(Agent agent : agents){
+            boolean moved = false;
+            Point2D temp = agent.getCurrentLocation();
+            ArrayList<Move> allMoves = agent.getPossibleMoves();
+            while (moved == false) {
+                Move bestMove = new QLearning(allMoves);//don't know why this error exists. Maybe because they're in the same package but named differently?
+                agent.executeMove(bestMove);
+                for (Area wall : walls) {
+                    
+                    if (checkCollision(agent, wall)) {
+                        moved = false;
+                        allMoves.remove(bestMove);
+                        agent.setCurrentLocation(temp);
+                        break;
+                    }else{
+                        moved = true;
+                    }
+                }
+            }
+        }
     }
+
 
 
 
@@ -38,12 +59,18 @@ public class GameController {
 
 //note to self: passing arraylists to methods means passing reference to arraylist, i.e. any changes made to 'method' arraylist affects original arraylist as well!!!!!
 
+//
+//    public static void spawn(Explorer.src.main.java.nl.maastrichtuniversity.dke.explorer.Area){
+//
+//    }
 
-    public static void spawn(Explorer.src.main.java.nl.maastrichtuniversity.dke.explorer.Area){
+    /**agents position = centre of circle, wall = rectangles. checks if any point on the edge of rectangles lie within the circle or an agent
+     *
+     * @param agent
+     * @param areas arrayList of all the areas one wishes to check for collision with an agent
+     * @return
+     */
 
-    }
-    // agents position = centre of circle, wall = rectangles. checks if any point on the edge of rectangles lie within the circle or an agent
-    //
     public static boolean checkCollisions(Agent agent, ArrayList<Area> areas) {
         double circCentreX = agent.getCurrentXLocation();
         double circCentreY = agent.getCurrentYLocation();

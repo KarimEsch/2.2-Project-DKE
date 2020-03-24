@@ -52,6 +52,7 @@ public class Agent {
     public void executeMove(Move m){
         this.currentXLocation = m.getX();
         this.currentYLocation = m.getY();
+        this.currentLocation.setLocation(m.getX(), m.getY());
     }
 
     //call this method when the exploration agent got to its target. Should stop moving after goalReached is true
@@ -79,10 +80,6 @@ public class Agent {
         return goalReached;
     }
 
-    public ArrayList<Move> getPossibleMoves() {
-        return possibleMoves;
-    }
-
     public static final double getAgentSize(){
         return AGENT_SIZE;
     }
@@ -95,4 +92,7 @@ public class Agent {
         return lastID;
     }
 
+    public ArrayList<Move> getPossibleMoves() {
+        return possibleMoves;
+    }
 }
