@@ -1,4 +1,4 @@
-package Explorer;
+package Explorer.src.main.java.nl.maastrichtuniversity.dke.explorer;
 import java.util.Random;
 import java.util.ArrayList;
 

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package nl.maastrichtuniversity.dke.explorer;
+package Explorer.src.main.java.nl.maastrichtuniversity.dke.explorer;
 
 // source
 // https://stackoverflow.com/questions/16251273/can-i-watch-for-single-file-change-with-watchservice-not-the-whole-directory

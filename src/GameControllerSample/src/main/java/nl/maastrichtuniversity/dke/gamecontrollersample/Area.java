@@ -9,7 +9,7 @@ package GameControllerSample.src.main.java.nl.maastrichtuniversity.dke.gamecontr
  *
  * @author joel
  */
-public class Area {
+public class Area extends java.awt.geom.Area{
     protected int leftBoundary;
     protected int rightBoundary;
     protected int topBoundary;

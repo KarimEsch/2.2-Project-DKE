@@ -3,18 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package nl.maastrichtuniversity.dke.explorer;
+package Explorer.src.main.java.nl.maastrichtuniversity.dke.explorer;
+import java.awt.Point;
+import java.awt.geom.Point2D;
+
 
 /**
  *
  * @author joel
  */
-public class Area {
+public class Area extends java.awt.geom.Area {
     protected int leftBoundary;
     protected int rightBoundary;
     protected int topBoundary;
     protected int bottomBoundary;
-    
+    protected Point2D center;
+
     public Area(){
         leftBoundary=0;
         rightBoundary=1;
@@ -36,11 +40,41 @@ public class Area {
         return (y>bottomBoundary)&(y<topBoundary)&(x>leftBoundary)&(x<rightBoundary);
     }
 
-    /*
-        Check whether something with a radius is in the target area
-        STILL TO BE IMPLEMENTED
-    */
+    /**
+     *
+     * @param x : x location of circle center
+     * @param y : y location of circle center
+     * @param radius
+     * @return  returns if the circle intersects with this area
+     */
     public boolean isHit(double x,double y,double radius){
-        return false;
+
+        double circCentreX = x;
+        double circCentreY = y;
+
+        double circDistX = Math.abs(circCentreX - this.getCenter().getX());
+        double circDistY = Math.abs(circCentreY - this.getCenter().getY());
+
+        if (circDistX > (this.getWidth()/2 + radius)) { return false; }
+        if (circDistY > (this.getHeight()/2 + radius)) { return false; }
+
+        if (circDistX <= (this.getWidth()/2 )) { return true; }
+        if (circDistY <= (this.getHeight()/2 )) { return true; }
+
+        double cornerDistance_sq = ((circDistX - this.getWidth()/2)*(circDistX - this.getWidth()/2)) + ((circDistY - this.getHeight()/2)*(circDistY - this.getHeight()/2));
+        return (cornerDistance_sq <= (radius*radius));
+    }
+
+    public Point2D getCenter(){
+        this.center.setLocation((this.leftBoundary + (this.getWidth()/2)), (this.bottomBoundary + (this.getHeight()/2)));
+        return this.center;
+    }
+
+    public double getWidth(){
+        return ((this.rightBoundary-this.leftBoundary)/2);
+    }
+
+    public double getHeight(){
+        return ((this.topBoundary-this.bottomBoundary)/2);
     }
 }
