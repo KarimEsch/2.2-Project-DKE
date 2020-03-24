@@ -32,11 +32,10 @@ public class GameController {
             boolean moved = false;
             Point2D temp = agent.getCurrentLocation();
             ArrayList<Move> allMoves = agent.getPossibleMoves();
-            while (moved == false) {
+            while (!moved) {
                 Move bestMove = new QLearning(allMoves);//don't know why this error exists. Maybe because they're in the same package but named differently?
                 agent.executeMove(bestMove);
                 for (Area wall : walls) {
-                    
                     if (checkCollision(agent, wall)) {
                         moved = false;
                         allMoves.remove(bestMove);
@@ -80,8 +79,8 @@ public class GameController {
             double circDistX = Math.abs(circCentreX - bounds.getCenterX());
             double circDistY = Math.abs(circCentreY - bounds.getCenterY());
 
-            if (circDistX > (bounds.getWidth()/2 + agent.getAgentSize())) { collision = false; }
-            if (circDistY > (bounds.getHeight()/2 + agent.getAgentSize())) { collision = false; }
+            if (circDistX > (bounds.getWidth()/2 + Agent.AGENT_SIZE)) { collision = false; }
+            if (circDistY > (bounds.getHeight()/2 + Agent.AGENT_SIZE)) { collision = false; }
 
             if (circDistX <= (bounds.getWidth()/2 )) {
                 collision = true;
@@ -94,7 +93,7 @@ public class GameController {
 
             double cornerDistance_sq = ((circDistX - bounds.getWidth()/2)*(circDistX - bounds.getWidth()/2)) + ((circDistY - bounds.getHeight()/2)*(circDistY - bounds.getHeight()/2));
 
-            collision = (cornerDistance_sq <= (agent.getAgentSize()*agent.getAgentSize()));
+            collision = (cornerDistance_sq <= (Agent.AGENT_SIZE*Agent.AGENT_SIZE));
 
         }return collision;
     }
@@ -107,14 +106,14 @@ public class GameController {
         double circDistX = Math.abs(circCentreX - bounds.getCenterX());
         double circDistY = Math.abs(circCentreY - bounds.getCenterY());
 
-        if (circDistX > (bounds.getWidth()/2 + agent.getAgentSize())) { return false; }
-        if (circDistY > (bounds.getHeight()/2 + agent.getAgentSize())) { return false; }
+        if (circDistX > (bounds.getWidth()/2 + Agent.AGENT_SIZE)) { return false; }
+        if (circDistY > (bounds.getHeight()/2 + Agent.AGENT_SIZE)) { return false; }
 
         if (circDistX <= (bounds.getWidth()/2 )) { return true; }
         if (circDistY <= (bounds.getHeight()/2 )) { return true; }
 
         double cornerDistance_sq = ((circDistX - bounds.getWidth()/2)*(circDistX - bounds.getWidth()/2)) + ((circDistY - bounds.getHeight()/2)*(circDistY - bounds.getHeight()/2));
-        return (cornerDistance_sq <= (agent.getAgentSize()*agent.getAgentSize()));
+        return (cornerDistance_sq <= (Agent.AGENT_SIZE*Agent.AGENT_SIZE));
     }
 
     /*  TODO check collision between all teleports or make sure 2 teleports are never near enough that both may be used at the same time

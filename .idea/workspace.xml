@@ -1,24 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfc227f7-82f3-47c0-a74f-5a0d0508047d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controllers/UsefulUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="dfc227f7-82f3-47c0-a74f-5a0d0508047d" name="Default Changelist" comment="forgot one file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controllers/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Agent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Area.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/ExGamePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/ExGamePlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Explorer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Explorer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/FileWatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/FileWatcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Move.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/QLearning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/QLearning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Scenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Scenario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/TelePortal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/TelePortal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/Area.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,34 +16,37 @@
     <session id="-437959053">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="27" />
+          <entry key="java" value="38" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="27" />
+          <entry key="JAVA" value="38" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="699" />
+          <entry key="java" value="2030" />
+          <entry key="txt" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="699" />
+          <entry key="JAVA" value="2030" />
+          <entry key="PLAIN_TEXT" value="15" />
         </counts>
       </usages-collector>
     </session>
@@ -68,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Controllers/GameController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="88" column="74" selection-start-line="88" selection-start-column="74" selection-end-line="88" selection-end-column="74" />
+            <state relative-caret-position="-280">
+              <caret line="83" column="72" lean-forward="true" selection-start-line="83" selection-start-column="72" selection-end-line="83" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,14 +68,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Area.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="670">
+              <caret line="73" column="58" lean-forward="true" selection-start-line="73" selection-start-column="58" selection-end-line="73" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2184#2185#0" expanded="true" />
-                <element signature="e#2249#2250#0" expanded="true" />
-                <element signature="e#2281#2282#0" expanded="true" />
-                <element signature="e#2346#2347#0" expanded="true" />
+                <element signature="e#2295#2296#0" expanded="true" />
+                <element signature="e#2360#2361#0" expanded="true" />
+                <element signature="e#2392#2393#0" expanded="true" />
+                <element signature="e#2457#2458#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,28 +91,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/Gui.java">
+        <entry file="file://$PROJECT_DIR$/src/Controllers/BoardController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="48" column="51" lean-forward="true" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Agent.java">
+        <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/QLearning.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="721">
-              <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/GameRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="-799">
+              <caret line="16" column="56" lean-forward="true" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3527#3533#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,17 +115,49 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Move.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="16" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/FileWatcher.java">
+        <entry file="file://$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/GameRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="408">
+              <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Agent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1377">
+              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1495#1496#0" expanded="true" />
+                <element signature="e#1534#1535#0" expanded="true" />
+                <element signature="e#1573#1574#0" expanded="true" />
+                <element signature="e#1617#1618#0" expanded="true" />
+                <element signature="e#1656#1657#0" expanded="true" />
+                <element signature="e#1700#1701#0" expanded="true" />
+                <element signature="e#1769#1770#0" expanded="true" />
+                <element signature="e#1802#1803#0" expanded="true" />
+                <element signature="e#1725#1726#0" expanded="true" />
+                <element signature="e#1755#1756#0" expanded="true" />
+                <element signature="e#1795#1796#0" expanded="true" />
+                <element signature="e#1829#1830#0" expanded="true" />
+                <element signature="e#1962#1963#0" expanded="true" />
+                <element signature="e#1995#1996#0" expanded="true" />
+                <element signature="e#2050#2051#0" expanded="true" />
+                <element signature="e#2096#2097#0" expanded="true" />
+                <element signature="e#2133#2134#0" expanded="true" />
+                <element signature="e#2162#2163#0" expanded="true" />
+                <element signature="e#2594#2595#0" expanded="true" />
+                <element signature="e#2630#2631#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,20 +171,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/QLearning.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3527#3533#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>bounds</find>
+      <find>agent</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -186,16 +201,17 @@
         <option value="$PROJECT_DIR$/src/Explorer/QLearning.java" />
         <option value="$PROJECT_DIR$/src/Explorer/Scenario.java" />
         <option value="$PROJECT_DIR$/src/Explorer/TelePortal.java" />
-        <option value="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Agent.java" />
         <option value="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/ExGamePlayer.java" />
         <option value="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Explorer.java" />
         <option value="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/FileWatcher.java" />
         <option value="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Move.java" />
-        <option value="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/QLearning.java" />
         <option value="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Scenario.java" />
         <option value="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/TelePortal.java" />
-        <option value="$PROJECT_DIR$/src/Controllers/GameController.java" />
         <option value="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Area.java" />
+        <option value="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/QLearning.java" />
+        <option value="$PROJECT_DIR$/src/Controllers/Move.java" />
+        <option value="$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Agent.java" />
+        <option value="$PROJECT_DIR$/src/Controllers/GameController.java" />
       </list>
     </option>
   </component>
@@ -210,6 +226,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -295,12 +313,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584967995824" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585053580658" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -340,15 +356,16 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -370,6 +387,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="forgot one file" />
+    <option name="LAST_COMMIT_MESSAGE" value="forgot one file" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/2.2-Project-DKE.iml">
       <provider selected="true" editor-type-id="text-editor">
@@ -390,20 +411,6 @@
     <entry file="file://$PROJECT_DIR$/src/Explorer/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/ExGamePlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Explorer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Scenario.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -418,21 +425,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/QLearning.java">
+    <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Explorer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3527#3533#0" expanded="true" />
-          </folding>
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/Gui.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="48" column="51" lean-forward="true" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
+        <state relative-caret-position="-112">
+          <caret line="52" column="51" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/Scenario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="218" column="12" selection-start-line="218" selection-start-column="12" selection-end-line="218" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/ExGamePlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/FileWatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/GameRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -443,13 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Agent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="721">
-          <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controllers/UsefulUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -457,45 +481,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameControllerSample/src/main/java/nl/maastrichtuniversity/dke/gamecontrollersample/GameRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/Controllers/BoardController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Move.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/FileWatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Area.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="670">
+          <caret line="73" column="58" lean-forward="true" selection-start-line="73" selection-start-column="58" selection-end-line="73" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2184#2185#0" expanded="true" />
-            <element signature="e#2249#2250#0" expanded="true" />
-            <element signature="e#2281#2282#0" expanded="true" />
-            <element signature="e#2346#2347#0" expanded="true" />
+            <element signature="e#2295#2296#0" expanded="true" />
+            <element signature="e#2360#2361#0" expanded="true" />
+            <element signature="e#2392#2393#0" expanded="true" />
+            <element signature="e#2457#2458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/QLearning.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-799">
+          <caret line="16" column="56" lean-forward="true" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3527#3533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Move.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controllers/Move.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Explorer/src/main/java/nl/maastrichtuniversity/dke/explorer/Agent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1495#1496#0" expanded="true" />
+            <element signature="e#1534#1535#0" expanded="true" />
+            <element signature="e#1573#1574#0" expanded="true" />
+            <element signature="e#1617#1618#0" expanded="true" />
+            <element signature="e#1656#1657#0" expanded="true" />
+            <element signature="e#1700#1701#0" expanded="true" />
+            <element signature="e#1769#1770#0" expanded="true" />
+            <element signature="e#1802#1803#0" expanded="true" />
+            <element signature="e#1725#1726#0" expanded="true" />
+            <element signature="e#1755#1756#0" expanded="true" />
+            <element signature="e#1795#1796#0" expanded="true" />
+            <element signature="e#1829#1830#0" expanded="true" />
+            <element signature="e#1962#1963#0" expanded="true" />
+            <element signature="e#1995#1996#0" expanded="true" />
+            <element signature="e#2050#2051#0" expanded="true" />
+            <element signature="e#2096#2097#0" expanded="true" />
+            <element signature="e#2133#2134#0" expanded="true" />
+            <element signature="e#2162#2163#0" expanded="true" />
+            <element signature="e#2594#2595#0" expanded="true" />
+            <element signature="e#2630#2631#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controllers/GameController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="88" column="74" selection-start-line="88" selection-start-column="74" selection-end-line="88" selection-end-column="74" />
+        <state relative-caret-position="-280">
+          <caret line="83" column="72" lean-forward="true" selection-start-line="83" selection-start-column="72" selection-end-line="83" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
