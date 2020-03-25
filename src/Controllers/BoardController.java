@@ -1,9 +1,7 @@
 package Controllers;
 
 public class BoardController {
-    public Board boardModel;
+ //   public Board boardModel;
 
-    public BoardController() {
-        boardModel = new Board();
-    }
+   // public BoardController() { boardModel = new Board();}
 }
