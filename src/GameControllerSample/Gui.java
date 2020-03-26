@@ -96,7 +96,6 @@ public class Gui extends Application{
         ArrayList<Area> walls = scenario.getWalls ();
         Group allWalls = new Group();
         for (int i=0; i<walls.size () ; i++) {
-            System.out.println ( walls.get ( i ).bottomBoundary );
             Rectangle rectangle = new Rectangle ();
             rectangle.setX(walls.get ( i ).leftBoundary);
             rectangle.setY(walls.get ( i ).bottomBoundary);
@@ -112,7 +111,6 @@ public class Gui extends Application{
         ArrayList<Area> shades = scenario.getShaded();
         Group allShaded = new Group();
         for (int i=0; i<shades.size () ; i++) {
-            System.out.println ( shades.get ( i ).bottomBoundary );
             Rectangle rectangle = new Rectangle ();
             rectangle.setX(shades.get ( i ).leftBoundary);
             rectangle.setY(shades.get ( i ).bottomBoundary);
@@ -128,7 +126,6 @@ public class Gui extends Application{
         ArrayList<TelePortal> teleport = scenario.getTeleportals();
         Group allTelePortals = new Group();
         for (int i=0; i<teleport.size () ; i++) {
-            System.out.println ( teleport.get ( i ).bottomBoundary );
             Rectangle rectangle = new Rectangle ();
             rectangle.setX(teleport.get ( i ).leftBoundary);
             rectangle.setY(teleport.get ( i ).bottomBoundary);
@@ -164,7 +161,7 @@ public class Gui extends Application{
     }
 
     public static double[] explorerCoords(){
-        double[] explorerPositions = new double[4];
+        double[] explorerPositions = new double[2];
         Charset ENCODING = StandardCharsets.UTF_8;
         Path filePath = Paths.get(scenario.getGameFile());
         try (Scanner scanner =  new Scanner(filePath, ENCODING.name())){

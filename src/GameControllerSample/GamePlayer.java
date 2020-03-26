@@ -50,7 +50,9 @@ public class GamePlayer extends FileWatcher {
                 // guard = <number> <status> <x> <y> <angle> <countdownTimer>
                 prtln.println("guard = "+String.valueOf(i)+" "+String.valueOf(guardStates[i])+" "+String.valueOf(guardPositions[i][0])+" "+String.valueOf(guardPositions[i][1])+" "+String.valueOf(guardPositions[i][2])+" "+String.valueOf(0.0));
             }
-            prtln.println("explorer = 1.0 1.0" );
+            double randomX = Math.random() * (scenario.spawnAreaIntruders.rightBoundary- scenario.spawnAreaIntruders.leftBoundary)+scenario.spawnAreaIntruders.leftBoundary;
+            double randomY = Math.random() * (scenario.spawnAreaIntruders.topBoundary- scenario.spawnAreaIntruders.bottomBoundary)+scenario.spawnAreaIntruders.bottomBoundary;
+            prtln.println("explorer = "+ randomX+" "+randomY);
             prtln.close();
         }
         catch(Exception e){
