@@ -104,7 +104,12 @@ public class QLearning extends Agent {
 
     public static void main(String[] args){
         QLearning q = new QLearning();
-        q.setCurrentLocation(0,0);
+        String mapD = System.getProperty("user.dir")+System.getProperty("file.separator")+"src"+System.getProperty("file.separator")+"GameControllerSample"+System.getProperty("file.separator")+"testmap.txt";
+        Scenario scenario = new Scenario(mapD);
+        //System.out.println(scenario.spawnAreaIntruders.getLeftBoundary());
+        q.setCurrentLocation(scenario.spawnAreaIntruders.getLeftBoundary() + (scenario.spawnAreaIntruders.getRightBoundary()-scenario.spawnAreaIntruders.getLeftBoundary())/2,
+                scenario.spawnAreaIntruders.getTopBoundary() + (scenario.spawnAreaIntruders.getBottomBoundary()-scenario.spawnAreaIntruders.getTopBoundary())/2);
+
 
         Runnable run = new Runnable() {
             public void run() {
