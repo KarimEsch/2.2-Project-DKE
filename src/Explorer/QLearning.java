@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 import static java.lang.Math.abs;
 
 public class QLearning extends Agent {
-    final static double threshold = 0.99;
+    final static double threshold = 0.3;
     double targetDirection = 145;
     final static int targetX = 4;
     final static int targetY = 1;
