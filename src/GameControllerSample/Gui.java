@@ -16,6 +16,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Scanner;
+import javafx.scene.transform.Scale;
 
 public class Gui extends Application{
     protected static Scenario scenario;
@@ -148,7 +149,15 @@ public class Gui extends Application{
 
         root.getChildren().addAll(allShaded,allTelePortals,SpawnAreaG,SpawnAreaI,TargetArea,allWalls,explorer);
 
-        Scene scene = new Scene(root, scenario.mapWidth, scenario.mapHeight);
+        //Creating the scale transformation
+        Scale scale = new Scale();
+
+        //Setting the dimensions for the transformation
+        scale.setX(3);
+        scale.setY(3);
+
+        root.getTransforms().addAll(scale);
+        Scene scene = new Scene(root);
 
         primaryStage.setScene(scene);
         primaryStage.show();
