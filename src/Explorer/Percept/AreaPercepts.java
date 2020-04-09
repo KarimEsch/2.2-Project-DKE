@@ -1,5 +1,4 @@
 package Explorer.Percept;
-
 /**
  * This class represents perception of the current area where agent is located.
  * This perception is relevant for the scenario percepts, especially slow down modifiers.

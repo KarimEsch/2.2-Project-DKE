@@ -1,6 +1,4 @@
 package Explorer.Agents;
-
-
 import Explorer.Action.IntruderAction;
 import Explorer.Percept.IntruderPercepts;
 

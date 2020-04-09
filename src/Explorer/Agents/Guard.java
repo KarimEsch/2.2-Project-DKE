@@ -1,5 +1,4 @@
 package Explorer.Agents;
-
 import Explorer.Action.GuardAction;
 import Explorer.Percept.GuardPercepts;
 

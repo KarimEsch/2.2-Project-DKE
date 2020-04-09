@@ -1,6 +1,4 @@
 package Explorer;
-
-
 public class Move {
     public double x;
     public double y;

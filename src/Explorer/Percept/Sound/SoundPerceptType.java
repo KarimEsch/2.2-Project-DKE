@@ -1,5 +1,4 @@
 package Explorer.Percept.Sound;
-
 /**
  * List of all possible sound types.
  */

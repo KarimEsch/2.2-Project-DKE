@@ -1,6 +1,4 @@
 package Explorer.Percept.Vision;
-
-
 import Explorer.Utils.Require;
 
 /**

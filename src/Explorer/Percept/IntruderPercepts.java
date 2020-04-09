@@ -1,6 +1,4 @@
 package Explorer.Percept;
-
-
 import Explorer.Geometry.Direction;
 import Explorer.Percept.Scenario.ScenarioIntruderPercepts;
 import Explorer.Percept.Smell.SmellPercepts;

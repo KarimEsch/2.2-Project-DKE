@@ -1,6 +1,4 @@
 package Explorer.Percept.Sound;
-
-
 import Explorer.Geometry.Direction;
 
 /**

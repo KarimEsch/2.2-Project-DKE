@@ -1,6 +1,4 @@
 package Explorer.Geometry;
-
-
 import Explorer.Utils.Require;
 
 /**

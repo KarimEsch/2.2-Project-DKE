@@ -1,6 +1,4 @@
 package Explorer.Percept.Scenario;
-
-
 import Explorer.Geometry.Angle;
 import Explorer.Geometry.Distance;
 import Explorer.Utils.Require;

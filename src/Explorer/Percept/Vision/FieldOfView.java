@@ -1,6 +1,4 @@
 package Explorer.Percept.Vision;
-
-
 import Explorer.Geometry.Angle;
 import Explorer.Geometry.Distance;
 import Explorer.Geometry.Point;

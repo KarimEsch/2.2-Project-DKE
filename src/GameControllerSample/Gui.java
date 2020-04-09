@@ -9,7 +9,6 @@ import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
-
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Path;
@@ -19,6 +18,7 @@ import java.util.Scanner;
 import javafx.scene.transform.Scale;
 
 public class Gui extends Application{
+
     protected static Scenario scenario;
 
     public static void main(String[] args, Scenario s) {

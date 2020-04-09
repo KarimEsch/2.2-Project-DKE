@@ -1,6 +1,4 @@
 package Explorer.Percept.Vision;
-
-
 import Explorer.Geometry.Point;
 import Explorer.Utils.Require;
 

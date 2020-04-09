@@ -1,5 +1,4 @@
 package Explorer.Percept;
-
 import Explorer.Percept.Scenario.ScenarioGuardPercepts;
 import Explorer.Percept.Smell.SmellPercepts;
 import Explorer.Percept.Sound.SoundPercepts;

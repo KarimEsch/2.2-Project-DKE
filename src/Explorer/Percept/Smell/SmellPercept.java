@@ -1,6 +1,4 @@
 package Explorer.Percept.Smell;
-
-
 import Explorer.Geometry.Distance;
 
 /**

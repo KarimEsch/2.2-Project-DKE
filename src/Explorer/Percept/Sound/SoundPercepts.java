@@ -1,5 +1,4 @@
 package Explorer.Percept.Sound;
-
 import java.util.Collections;
 import java.util.Set;
 import java.util.function.Predicate;

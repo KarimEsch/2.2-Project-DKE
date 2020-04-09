@@ -1,5 +1,4 @@
 package Explorer.Geometry;
-
 import Explorer.Utils.Utils;
 
 /**

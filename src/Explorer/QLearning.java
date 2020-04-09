@@ -1,5 +1,4 @@
 package Explorer;
-
 import Explorer.Action.ActionsManager;
 
 import java.awt.geom.Rectangle2D;

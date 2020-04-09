@@ -1,5 +1,4 @@
 package Explorer.Action;
-
 /**
  * Represents an intention to make no action.
  * An agent may decide to issue NoAction while in a cool down period.

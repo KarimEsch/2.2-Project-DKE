@@ -1,6 +1,4 @@
 package Explorer.Action;
-
-
 import Explorer.Geometry.Angle;
 
 /**

@@ -1,5 +1,4 @@
 package Controllers;
-
 import Explorer.Agent;
 import Explorer.Area;
 

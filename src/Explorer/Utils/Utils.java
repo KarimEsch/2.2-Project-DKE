@@ -1,5 +1,4 @@
 package Explorer.Utils;
-
 import java.math.BigDecimal;
 import java.math.MathContext;
 

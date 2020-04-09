@@ -1,5 +1,4 @@
 package Explorer.Percept.Vision;
-
 /**
  * Lists all possible object types, detectable by vision.
  */

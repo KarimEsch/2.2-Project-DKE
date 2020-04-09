@@ -1,5 +1,4 @@
 package Explorer.Percept.Smell;
-
 /**
  * Lists all possible smell types.
  */

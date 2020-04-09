@@ -1,6 +1,4 @@
 package Explorer.Percept.Scenario;
-
-
 import Explorer.Utils.Require;
 
 /**
