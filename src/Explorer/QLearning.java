@@ -13,13 +13,28 @@ import java.util.concurrent.TimeUnit;
 import static java.lang.Math.abs;
 
 public class QLearning extends Agent {
-    final static double threshold = 0.3;
+    static double threshold = 0.25;
     double targetDirection = 145;
-    final static int targetX = 4;
-    final static int targetY = 1;
+    static int targetX = 0;
+    static int targetY = 0;
+    static int numberOfMoves = 0;
+    static int maximumMovesBeforeThresholdChange = 1000;
 
 
     public Move Qlearning(ArrayList<Move> moves){
+        //first check, if there are many moves made. If there are too many moves done, increase the chance of doing a random move.
+        //This is useful when we need to teleport to get to the right room. With a higher chance of doing random moves,
+        //we increase the chance of finding the teleport
+        if (numberOfMoves > maximumMovesBeforeThresholdChange && threshold < 1){
+            //prevent threshold from increasing > 1
+            double residue = 1-threshold;
+            double growth = 0.1 * residue;
+            threshold = threshold + growth;
+            //set the number of moves to 0 again
+            numberOfMoves = 0;
+        }
+
+
         //If the random number is smaller than the threshold:
         //Pick a random move out of the set of all moves
         Random generator = new Random();
@@ -27,7 +42,7 @@ public class QLearning extends Agent {
         if (epsilon < threshold) {
             int randomIndex = generator.nextInt(moves.size());
             Move randomMove = moves.get(randomIndex);
-            System.out.println(randomIndex);
+            numberOfMoves++;
             return randomMove;
         }
         //Else, evaluate all moves and pick the move with the highest evaluation (lowest error in this case)
@@ -44,8 +59,10 @@ public class QLearning extends Agent {
                     lowestError = currentAbsoluteError;
                 }
             }
+            numberOfMoves++;
             return moves.get(bestIndex);
         }
+
     }
 
 
@@ -108,6 +125,10 @@ public class QLearning extends Agent {
         //System.out.println(scenario.spawnAreaIntruders.getLeftBoundary());
         q.setCurrentLocation(scenario.spawnAreaIntruders.getLeftBoundary() + (scenario.spawnAreaIntruders.getRightBoundary()-scenario.spawnAreaIntruders.getLeftBoundary())/2,
                 scenario.spawnAreaIntruders.getTopBoundary() + (scenario.spawnAreaIntruders.getBottomBoundary()-scenario.spawnAreaIntruders.getTopBoundary())/2);
+        
+        //@Matt please check if this is the correct way to get the position out of the file
+        q.setTargetLocation(scenario.targetArea.getLeftBoundary() + (scenario.targetArea.getRightBoundary()-scenario.targetArea.getLeftBoundary())/2,
+                scenario.targetArea.getTopBoundary() + (scenario.targetArea.getBottomBoundary()-scenario.targetArea.getTopBoundary())/2);
 
 
         Runnable run = new Runnable() {
@@ -176,5 +197,10 @@ public class QLearning extends Agent {
             }
         }
         return new double[]{-1,-1,-1};
+    }
+    
+    public void setTargetLocation(int x, int y){
+        this.targetX = x;
+        this.targetY = y;
     }
 }
