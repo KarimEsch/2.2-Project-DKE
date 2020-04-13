@@ -13,12 +13,12 @@ import java.util.concurrent.TimeUnit;
 import static java.lang.Math.abs;
 
 public class QLearning extends Agent {
-    static double threshold = 0.25;
-    double targetDirection = 145;
+    static double threshold = 0.1;
+    double targetDirection = 0;
     static int targetX = 0;
     static int targetY = 0;
     static int numberOfMoves = 0;
-    static int maximumMovesBeforeThresholdChange = 1000;
+    static int maximumMovesBeforeThresholdChange = 50;
 
 
     public Move Qlearning(ArrayList<Move> moves){
@@ -85,7 +85,6 @@ public class QLearning extends Agent {
             }
         } else {
             movingDirection = Math.toDegrees(Math.atan(yVector / xVector));
-            System.out.println("Degree of movement: " + movingDirection);
         }
         absoluteError = abs(targetDirection - movingDirection);
 
@@ -125,10 +124,13 @@ public class QLearning extends Agent {
         //System.out.println(scenario.spawnAreaIntruders.getLeftBoundary());
         q.setCurrentLocation(scenario.spawnAreaIntruders.getLeftBoundary() + (scenario.spawnAreaIntruders.getRightBoundary()-scenario.spawnAreaIntruders.getLeftBoundary())/2,
                 scenario.spawnAreaIntruders.getTopBoundary() + (scenario.spawnAreaIntruders.getBottomBoundary()-scenario.spawnAreaIntruders.getTopBoundary())/2);
-        
+
         //@Matt please check if this is the correct way to get the position out of the file
         q.setTargetLocation(scenario.targetArea.getLeftBoundary() + (scenario.targetArea.getRightBoundary()-scenario.targetArea.getLeftBoundary())/2,
                 scenario.targetArea.getTopBoundary() + (scenario.targetArea.getBottomBoundary()-scenario.targetArea.getTopBoundary())/2);
+        
+        //Set initial target direction
+        q.updateDirection();
 
 
         Runnable run = new Runnable() {
@@ -142,6 +144,8 @@ public class QLearning extends Agent {
                 }else{
                     moveExplorer(m.x,m.y,q);
                 }
+                //The goal is to call this after every move, because direction to target changes
+                q.updateDirection();
             }
         };
 
@@ -198,7 +202,7 @@ public class QLearning extends Agent {
         }
         return new double[]{-1,-1,-1};
     }
-    
+
     public void setTargetLocation(int x, int y){
         this.targetX = x;
         this.targetY = y;
