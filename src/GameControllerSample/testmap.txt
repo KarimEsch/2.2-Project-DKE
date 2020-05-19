@@ -24,7 +24,7 @@ viewRangeSentry = 2 20
 
 targetArea = 80 60 90 70
 spawnAreaIntruders = 20 20 30 30
-spawnAreaGuards =  0 0 0 0
+spawnAreaGuards =  0 0 10 10
 wall = 70 40 120 40
 wall = 30 0 30 20
 wall = 40 0 40 10

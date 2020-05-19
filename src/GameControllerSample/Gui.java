@@ -61,6 +61,7 @@ public class Gui extends Application{
     }
 
     private static Circle explorer;
+    private static Circle guard;
 
     public static void drawMap(){
         System.out.println("drawing map");
@@ -74,7 +75,7 @@ public class Gui extends Application{
         SpawnAreaG.setWidth(scenario.spawnAreaGuards.rightBoundary - scenario.spawnAreaGuards.leftBoundary);
         SpawnAreaG.setHeight ( scenario.spawnAreaGuards.topBoundary - scenario.spawnAreaGuards.bottomBoundary );
         SpawnAreaG.setFill (Color.LIGHTBLUE );
-        SpawnAreaG.setStroke ( Color.BLACK );
+        SpawnAreaG.setStroke ( Color.TRANSPARENT );
 
         Rectangle SpawnAreaI = new Rectangle(  );
         SpawnAreaI.setX(scenario.spawnAreaIntruders.leftBoundary);
@@ -144,7 +145,15 @@ public class Gui extends Application{
         explorer.setCenterY(exChoords[1]);
         explorer.setFill(Color.RED);
 
-        root.getChildren().addAll(allShaded,allTelePortals,SpawnAreaG,SpawnAreaI,TargetArea,allWalls,explorer);
+        //adding the guard agent
+        guard = new Circle(Agent.AGENT_SIZE,Color.BLUE);
+        double[] exChoords2 = guardCoords();
+        guard.setCenterX(exChoords2[0]);
+        guard.setCenterY(exChoords2[1]);
+        guard.setFill(Color.BLUE);
+
+
+        root.getChildren().addAll(allShaded,allTelePortals,SpawnAreaG,SpawnAreaI,TargetArea,allWalls,explorer,guard);
 
         //Creating the scale transformation
         Scale scale = new Scale();
@@ -184,6 +193,32 @@ public class Gui extends Application{
             //System.out.println("fail");
         }
         return explorerPositions;
+    }
+
+    public static double[] guardCoords(){
+        double[] guardPositions = new double[2];
+        Charset ENCODING = StandardCharsets.UTF_8;
+        Path filePath = Paths.get(scenario.getGameFile());
+        try (Scanner scanner =  new Scanner(filePath, ENCODING.name())){
+            while (scanner.hasNextLine()){
+                //System.out.println(scanner.next());
+                String id = scanner.next();
+                if(id.equals("guard")){
+                    scanner.next();
+
+                    guardPositions = new double[4];
+                    guardPositions[0] = Double.parseDouble(scanner.next());
+                    guardPositions[1] = Double.parseDouble(scanner.next());
+                    guardPositions[2] = Double.parseDouble(scanner.next());
+                    guardPositions[3] = Double.parseDouble(scanner.next());
+                }
+
+            }
+        }
+        catch(Exception e) {
+            //System.out.println("fail");
+        }
+        return guardPositions;
     }
 
 
